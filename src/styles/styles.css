@@ -1,0 +1,38 @@
+body {
+  background-color: #FDFDFD;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style: none;
+  margin-top: 5px;
+  background-color: white;
+  width: 200px;
+  transform: skewX(-30deg);
+  position: relative;
+  left: -60px;
+}
+
+li:hover {
+  background-color: black;
+  width: 200px;
+  transition: background-color 0.5s, width 0.5s;
+  color: white;
+}
+
+span {
+  position: relative;
+  left: 20px;
+  display: block;
+  transform: skewX(30deg);
+  padding: 5px;
+}
