@@ -9,5 +9,5 @@ export const Navbar = () => {
       <NavLink to='/about'><li><span>ABOUT ME</span></li></NavLink>
       <NavLink to='/resume'><li><span>RESUME</span></li></NavLink>
     </ul>
-  )
-}
+  );
+};

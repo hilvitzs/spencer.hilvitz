@@ -5,5 +5,5 @@ export const Portfolio = () => {
     <div>
       This is my portfolio
     </div>
-  )
-}
+  );
+};

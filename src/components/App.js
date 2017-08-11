@@ -12,11 +12,11 @@ export const App = () => {
       <h1>spencer.hilvitz</h1>
       <Navbar />
       <Switch>
-        <Route path='/portfolio' render={() => <Portfolio /> } />
-        <Route path='/contact' render={() => <Contact /> } />
-        <Route path='/about' render={() => <About /> } />
-        <Route path='/resume' render={() => <Resume /> } />
+        <Route path='/portfolio' render={() => <Portfolio />} />
+        <Route path='/contact' render={() => <Contact />} />
+        <Route path='/about' render={() => <About />} />
+        <Route path='/resume' render={() => <Resume />} />
       </Switch>
     </div>
   );
-}
+};

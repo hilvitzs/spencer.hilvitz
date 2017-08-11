@@ -5,5 +5,5 @@ export const Contact = () => {
     <div>
       This is my contact
     </div>
-  )
-}
+  );
+};

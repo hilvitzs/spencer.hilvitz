@@ -5,5 +5,5 @@ export const Resume = () => {
     <div>
       This is my resume
     </div>
-  )
-}
+  );
+};
