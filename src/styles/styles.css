@@ -1,5 +1,6 @@
 body {
   background-color: #FDFDFD;
+  font-family: 'Lato', sans-serif;
 }
 
 .navbar {
@@ -7,32 +8,117 @@ body {
   flex-direction: column;
 }
 
+h1 {
+  padding: 5px;
+  padding-left: 15px;
+  color: #FDFDFD;
+}
+
 a {
   text-decoration: none;
-  color: black;
+  color: #1C1616;
 }
 
 li {
   list-style: none;
-  margin-top: 5px;
-  background-color: white;
-  width: 200px;
-  transform: skewX(-30deg);
+  margin-top: 20px;
+  font-weight: 300;
+  background-color: #1C1616;
+  color: #FDFDFD;
+  transform: skewX(-20deg);
   position: relative;
-  left: -60px;
+  left: -50px;
 }
 
 li:hover {
-  background-color: black;
+  background-color: #FFBD4A;
+  transition: background-color 0.5s;
+  color: #FDFDFD;
+}
+
+.portfolio {
+  width: 177px;
+}
+
+.contact {
+  width: 159px;
+}
+
+.about {
+  width: 141px;
+}
+
+.resume {
+  width: 124px;
+}
+
+.portfolio:hover {
   width: 200px;
-  transition: background-color 0.5s, width 0.5s;
-  color: white;
+  transition: width 0.5s;
+}
+
+.contact:hover {
+  width: 182px;
+  transition: width 0.5s;
+}
+
+.about:hover {
+  width: 164px;
+  transition: width 0.5s;
+}
+
+.resume:hover {
+  width: 147px;
+  transition: width 0.5s;
 }
 
 span {
   position: relative;
   left: 20px;
   display: block;
-  transform: skewX(30deg);
+  transform: skewX(20deg);
   padding: 5px;
+}
+
+.heading-section {
+  border: 1px solid #1C1616;
+  background-color: #1C1616;
+  border-top: none;
+  width: 15em;
+  transform: rotate(20deg);
+  position: absolute;
+  top: -200px;
+  left: -110px;
+  height: 90%;
+  width: 220px;
+  z-index: 1;
+}
+
+.heading-wrapper {
+  transform: rotate(-20deg);
+  position: absolute;
+  top: 160px;
+  left: 70px;
+}
+
+.background-container {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  right: 0;
+  text-align: center;
+  background-image: url(./ink.jpg);
+}
+
+.main-content-div {
+  position: relative;
+  top: 200px;
+  padding: 100px;
+  height: 80%;
+  width: 50%;
+  margin: auto;
+  background-color: #1C1616;
+  color: #FDFDFD;
 }

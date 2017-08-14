@@ -8,15 +8,23 @@ import { Resume } from './Resume';
 
 export const App = () => {
   return (
-    <div className=''>
-      <h1>spencer.hilvitz</h1>
-      <Navbar />
-      <Switch>
-        <Route path='/portfolio' render={() => <Portfolio />} />
-        <Route path='/contact' render={() => <Contact />} />
-        <Route path='/about' render={() => <About />} />
-        <Route path='/resume' render={() => <Resume />} />
-      </Switch>
-    </div>
+    <section className='app-wrapper'>
+      <section className='heading-section'>
+        <div className='heading-wrapper'>
+          <h1>spencer.hilvitz</h1>
+          <Navbar />
+        </div>
+      </section>
+      <div className='background-container'>
+        <section className='main-content-section'>
+          <Switch>
+            <Route path='/portfolio' render={() => <Portfolio />} />
+            <Route path='/contact' render={() => <Contact />} />
+            <Route path='/about' render={() => <About />} />
+            <Route path='/resume' render={() => <Resume />} />
+          </Switch>
+        </section>
+      </div>
+    </section>
   );
 };
