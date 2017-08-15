@@ -8,7 +8,7 @@ body {
   flex-direction: column;
 }
 
-h1 {
+.navbar-title {
   padding-left: 15px;
   padding-top: 25px;
   color: #FDFDFD;
@@ -109,7 +109,7 @@ span {
 }
 
 .background-container {
-  height: 100%;
+  height: 120%;
   width: 100%;
   position: absolute;
   z-index: 0;
@@ -122,12 +122,17 @@ span {
 .main-content-div {
   position: relative;
   top: 40px;
-  padding: 100px;
-  height: 650px;
+  padding: 50px;
   width: 50%;
   margin-left: 25%;
   background-color: #1C1616;
   color: #FDFDFD;
   font-size: 20px;
   overflow: scroll;
+}
+
+img {
+  height: auto;
+  width: 80%;
+
 }

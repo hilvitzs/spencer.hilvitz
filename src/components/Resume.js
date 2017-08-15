@@ -3,7 +3,7 @@ import React from 'react';
 export const Resume = () => {
   return (
     <div className='main-content-div'>
-      This is my resume
+      <img alt='resume' src={require('../resume_turing.jpg')} />
     </div>
   );
 };

@@ -11,7 +11,7 @@ export const App = () => {
     <section className='app-wrapper'>
       <section className='heading-section'>
         <div className='heading-wrapper'>
-          <h1>spencer.hilvitz</h1>
+          <h1 className='navbar-title'>spencer.hilvitz</h1>
           <Navbar />
         </div>
       </section>

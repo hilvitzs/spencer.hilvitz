@@ -7,7 +7,7 @@ import createHistory from 'history/createBrowserHistory';
 
 let history = createHistory();
 
-require('./styles/styles.css')
+require('./styles/styles.css');
 
 render(<BrowserRouter history={history} >
   <div>
