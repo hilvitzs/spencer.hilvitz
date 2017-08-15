@@ -9,28 +9,26 @@ body {
 }
 
 h1 {
-  padding: 5px;
   padding-left: 15px;
+  padding-top: 25px;
   color: #FDFDFD;
 }
 
 a {
   text-decoration: none;
   color: #1C1616;
-}
-
-li {
   list-style: none;
   margin-top: 20px;
   font-weight: 300;
-  background-color: #1C1616;
-  color: #FDFDFD;
+  background-color: #FDFDFD;
+  color: black;
+  border: 1px solid #1C1616;
   transform: skewX(-20deg);
   position: relative;
-  left: -50px;
+  left: -15px;
 }
 
-li:hover {
+a:hover {
   background-color: #FFBD4A;
   transition: background-color 0.5s;
   color: #FDFDFD;
@@ -41,15 +39,16 @@ li:hover {
 }
 
 .contact {
-  width: 159px;
+  width: 158px;
 }
 
 .about {
-  width: 141px;
+  width: 140px;
+  transition: width 0.5s;
 }
 
 .resume {
-  width: 124px;
+  width: 121px;
 }
 
 .portfolio:hover {
@@ -74,10 +73,10 @@ li:hover {
 
 span {
   position: relative;
-  left: 20px;
   display: block;
   transform: skewX(20deg);
   padding: 5px;
+  left: 25px;
 }
 
 .heading-section {
@@ -114,11 +113,11 @@ span {
 
 .main-content-div {
   position: relative;
-  top: 200px;
+  top: 90px;
   padding: 100px;
-  height: 80%;
+  height: 500px;
   width: 50%;
-  margin: auto;
+  margin-left: 25%;
   background-color: #1C1616;
   color: #FDFDFD;
 }
