@@ -3,11 +3,11 @@ import { NavLink } from 'react-router-dom';
 
 export const Navbar = () => {
   return (
-    <ul className='navbar'>
-      <NavLink to='/portfolio'><li className='portfolio'><span>PORTFOLIO</span></li></NavLink>
-      <NavLink to='/contact'><li className='contact'><span>CONTACT ME</span></li></NavLink>
-      <NavLink to='/about'><li className='about'><span>ABOUT ME</span></li></NavLink>
-      <NavLink to='/resume'><li className='resume'><span>RESUME</span></li></NavLink>
-    </ul>
+    <section className='navbar'>
+      <NavLink className='portfolio' to='/portfolio'><span>PORTFOLIO</span></NavLink>
+      <NavLink className='contact' to='/contact'><span>CONTACT</span></NavLink>
+      <NavLink className='about' to='/about'><span>ABOUT</span></NavLink>
+      <NavLink className='resume' to='/resume'><span>RESUME</span></NavLink>
+    </section>
   );
 };
