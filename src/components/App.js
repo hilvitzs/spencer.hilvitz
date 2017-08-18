@@ -12,19 +12,18 @@ export const App = () => {
       <section className='heading-section'>
         <div className='heading-wrapper'>
           <h1 className='navbar-title'>spencer.hilvitz</h1>
+          {/* <img className='logo' alt='logo' src={require('../resume_turing.jpg')} /> */}
           <Navbar />
         </div>
       </section>
-      <div className='background-container'>
-        <section className='main-content-section'>
-          <Switch>
-            <Route path='/portfolio' render={() => <Portfolio />} />
-            <Route path='/contact' render={() => <Contact />} />
-            <Route path='/about' render={() => <About />} />
-            <Route path='/resume' render={() => <Resume />} />
-          </Switch>
-        </section>
-      </div>
+      <section className='main-content-section'>
+        <Switch>
+          <Route path='/portfolio' render={() => <Portfolio />} />
+          <Route path='/contact' render={() => <Contact />} />
+          <Route path='/about' render={() => <About />} />
+          <Route path='/resume' render={() => <Resume />} />
+        </Switch>
+      </section>
     </section>
   );
 };

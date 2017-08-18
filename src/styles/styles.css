@@ -1,6 +1,13 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Raleway', sans-serif;
+}
+
 body {
-  background-color: #FDFDFD;
-  font-family: 'Lato', sans-serif;
+  background-image: url(./7135.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .navbar {
@@ -9,9 +16,10 @@ body {
 }
 
 .navbar-title {
-  padding-left: 15px;
-  padding-top: 25px;
+  margin: 0;
+  padding-left: 50px;
   color: #FDFDFD;
+  font-weight: 300;
 }
 
 a {
@@ -25,37 +33,37 @@ a {
   border: 1px solid #1C1616;
   transform: skewX(-20deg);
   position: relative;
-  left: -15px;
+  left: -11px;
 }
 
 a:hover {
-  background-color: #FFBD4A;
+  background-color: #74CEDD;
   transition: background-color 0.5s;
   color: #FDFDFD;
 }
 
 a.active {
-  background-color: #FFBD4A;
+  background-color: #74CEDD;
   transition: width 0.5s;
 }
 
 .portfolio {
-  width: 177px;
+  width: 183px;
   transition: width 0.5s;
 }
 
 .contact {
-  width: 158px;
-  transition: width 0.5s;
-}
-
-.about {
-  width: 140px;
+  width: 164px;
   transition: width 0.5s;
 }
 
 .resume {
-  width: 121px;
+  width: 146px;
+  transition: width 0.5s;
+}
+
+.about {
+  width: 127px;
   transition: width 0.5s;
 }
 
@@ -69,12 +77,12 @@ a.active {
   transition: width 0.5s;
 }
 
-.about:hover, .about.active {
+.resume:hover, .resume.active {
   width: 164px;
   transition: width 0.5s;
 }
 
-.resume:hover, .resume.active {
+.about:hover, .about.active {
   width: 147px;
   transition: width 0.5s;
 }
@@ -84,18 +92,18 @@ span {
   display: block;
   transform: skewX(20deg);
   padding: 5px;
-  left: 25px;
+  left: 55px;
 }
 
 .heading-section {
-  border: 1px solid #1C1616;
+  border-right: 1px solid #74CEDD;
   background-color: #1C1616;
   border-top: none;
   width: 15em;
   transform: rotate(20deg);
   position: absolute;
-  top: -200px;
-  left: -110px;
+  top: -150px;
+  left: -114px;
   height: 90%;
   width: 220px;
   z-index: 1;
@@ -108,31 +116,49 @@ span {
   left: 70px;
 }
 
-.background-container {
-  height: 120%;
-  width: 100%;
-  position: absolute;
-  z-index: 0;
-  top: 0;
-  right: 0;
-  text-align: center;
-  background-image: url(./ink.jpg);
-}
-
 .main-content-div {
-  position: relative;
+  position: absolute;
   top: 40px;
+  right: -160px;
   padding: 50px;
-  width: 50%;
-  margin-left: 25%;
-  background-color: #1C1616;
-  color: #FDFDFD;
+  width: 80%;
+  background-color: #74CEDD;
+  color: #1C1616;
   font-size: 20px;
   overflow: scroll;
+  transform: skewX(-20deg);
+}
+
+.about-div {
+  width: 50%;
+  left: 100px;
+  position: relative;
+}
+
+.contact-div, .resume-img, .about-div {
+  transform: skewX(20deg);
+}
+
+.resume-img {
+  height: 50%;
+  width: 50%;
+  position: relative;
+  left: 150px;
 }
 
 img {
   height: auto;
   width: 80%;
+}
 
+.github-icon, .linked-icon {
+  height: 25px;
+  width: 25px;
+}
+
+.contact-icons {
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid black;
+  width: 50px;
 }
