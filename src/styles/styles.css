@@ -19,7 +19,7 @@ body {
   font-weight: 300;
 }
 
-a {
+.navlink {
   text-decoration: none;
   color: #1C1616;
   list-style: none;
@@ -33,13 +33,13 @@ a {
   left: -11px;
 }
 
-a:hover {
+.navlink:hover {
   background-color: #74CEDD;
   transition: background-color 0.5s;
   color: #FDFDFD;
 }
 
-a.active {
+.navlink.active {
   background-color: #74CEDD;
   transition: width 0.5s;
 }
