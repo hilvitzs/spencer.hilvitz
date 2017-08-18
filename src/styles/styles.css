@@ -45,22 +45,22 @@ body {
 }
 
 .portfolio {
-  width: 183px;
+  width: 172px;
   transition: width 0.5s;
 }
 
 .contact {
-  width: 164px;
+  width: 153px;
   transition: width 0.5s;
 }
 
 .resume {
-  width: 146px;
+  width: 135px;
   transition: width 0.5s;
 }
 
 .about {
-  width: 127px;
+  width: 116px;
   transition: width 0.5s;
 }
 
@@ -89,7 +89,7 @@ span {
   display: block;
   transform: skewX(20deg);
   padding: 5px;
-  left: 55px;
+  left: 50px;
 }
 
 .heading-section {
@@ -109,7 +109,7 @@ span {
 .heading-wrapper {
   transform: rotate(-20deg);
   position: absolute;
-  top: 160px;
+  top: 140px;
   left: 70px;
 }
 
@@ -158,4 +158,12 @@ img {
   flex-direction: column;
   border-right: 1px solid black;
   width: 50px;
+}
+
+.logo {
+  position: relative;
+  top: 5px;
+  left: 75px;
+  height: 80px;
+  width: 100px;
 }

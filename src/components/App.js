@@ -11,8 +11,7 @@ export const App = () => {
     <section className='app-wrapper'>
       <section className='heading-section'>
         <div className='heading-wrapper'>
-          <h1 className='navbar-title'>spencer.hilvitz</h1>
-          {/* <img className='logo' alt='logo' src={require('../resume_turing.jpg')} /> */}
+          <img className='logo' alt='logo' src={require('../logo.png')} />
           <Navbar />
         </div>
       </section>
