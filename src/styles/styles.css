@@ -115,7 +115,7 @@ span {
 
 .main-content-div {
   position: absolute;
-  top: 40px;
+  top: 115px;
   right: -160px;
   padding: 50px;
   width: 80%;
@@ -132,7 +132,7 @@ span {
   position: relative;
 }
 
-.contact-div, .resume-img, .about-div {
+.contact-div, .resume-img, .about-div, .main-section {
   transform: skewX(20deg);
 }
 
