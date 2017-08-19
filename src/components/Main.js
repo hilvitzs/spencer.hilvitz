@@ -7,9 +7,9 @@ export const Main = () => {
         <div>
           <img className='logo-black' alt='logo' src={require('../logo-white.png')} />
         </div>
-        <div>
-          <h1>Spencer Hilvitz</h1>
-          <h2>Front End Web Developer</h2>
+        <div className='main-div'>
+          <h1 className='main-name'>spencer hilvitz</h1>
+          <h2 className='main-title'>front.end web.developer</h2>
         </div>
       </section>
     </div>

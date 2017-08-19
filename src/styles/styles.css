@@ -191,3 +191,18 @@ img {
 .contact-title {
   padding: 10px;
 }
+
+.main-div {
+  display: flex;
+  border-left: 1px solid #FDFDFD;
+}
+
+.main-name {
+  padding: 10px;
+  padding-right: 0;
+}
+
+.main-title {
+  position: relative;
+  top: 30px;
+}
