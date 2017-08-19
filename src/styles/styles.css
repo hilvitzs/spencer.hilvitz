@@ -5,6 +5,7 @@ body {
   background-image: url(./7135.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  overflow: hidden;
 }
 
 .navbar {
@@ -89,7 +90,7 @@ span {
   display: block;
   transform: skewX(20deg);
   padding: 5px;
-  left: 50px;
+  left: 47px;
 }
 
 .heading-section {
@@ -122,7 +123,7 @@ span {
   background-color: #74CEDD;
   color: #1C1616;
   font-size: 20px;
-  overflow: scroll;
+  overflow: hidden;
   transform: skewX(-20deg);
 }
 
@@ -134,6 +135,10 @@ span {
 
 .contact-div, .resume-img, .about-div, .main-section {
   transform: skewX(20deg);
+}
+
+.main-section {
+  display: flex;
 }
 
 .resume-img {
@@ -156,14 +161,19 @@ img {
 .contact-icons {
   display: flex;
   flex-direction: column;
-  border-right: 1px solid black;
+  border-right: 1px solid #1C1616;
   width: 50px;
 }
 
-.logo {
+.logo-white {
   position: relative;
   top: 5px;
   left: 75px;
+  height: 80px;
+  width: 100px;
+}
+
+.logo-black {
   height: 80px;
   width: 100px;
 }
