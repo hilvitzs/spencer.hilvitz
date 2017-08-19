@@ -120,8 +120,9 @@ span {
   right: -160px;
   padding: 50px;
   width: 80%;
-  background-color: #74CEDD;
-  color: #1C1616;
+  background-color: #1C1616;
+  border: 1px solid #74CEDD;
+  color: #FDFDFD;
   font-size: 20px;
   overflow: hidden;
   transform: skewX(-20deg);
@@ -133,11 +134,11 @@ span {
   position: relative;
 }
 
-.contact-div, .resume-img, .about-div, .main-section {
+.contact-div, .resume-img, .about-div, .main-section, .portfolio-div {
   transform: skewX(20deg);
 }
 
-.main-section {
+.main-section, .contact-div {
   display: flex;
 }
 
@@ -156,13 +157,22 @@ img {
 .github-icon, .linked-icon {
   height: 25px;
   width: 25px;
+  fill: #FDFDFD;
 }
 
 .contact-icons {
   display: flex;
   flex-direction: column;
-  border-right: 1px solid #1C1616;
+  border-right: 1px solid #FDFDFD;
   width: 50px;
+  transform: skewX(-20deg);
+  position: relative;
+  right: 15px;
+}
+
+.icon {
+  padding: 10px;
+  transform: skewX(20deg);
 }
 
 .logo-white {
@@ -174,6 +184,10 @@ img {
 }
 
 .logo-black {
-  height: 80px;
-  width: 100px;
+  height: 170px;
+  width: 170px;
+}
+
+.contact-title {
+  padding: 10px;
 }
