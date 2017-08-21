@@ -13,13 +13,6 @@ body {
   flex-direction: column;
 }
 
-.navbar-title {
-  margin: 0;
-  padding-left: 50px;
-  color: #FDFDFD;
-  font-weight: 300;
-}
-
 .navlink {
   text-decoration: none;
   color: #1C1616;
@@ -163,11 +156,14 @@ img {
 .contact-icons {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   border-right: 1px solid #FDFDFD;
   width: 50px;
   transform: skewX(-20deg);
   position: relative;
   right: 15px;
+  height: 140px;
+  top: 15px;
 }
 
 .icon {
@@ -211,4 +207,33 @@ img {
   top: 75px;
   font-weight: 300;
   font-size: 30px;
+}
+
+.input, .submit-button {
+  border: 1px solid #74CEDD;
+  margin: 20px;
+  background-color: #1C1616;
+  color: #FDFDFD;
+  padding: 5px;
+}
+
+.name-input, .email-input {
+  width: 40%;
+}
+
+.contact-content {
+  margin: 0;
+  width: 86%;
+}
+
+.contact-form {
+  position: relative;
+  left: 50px;
+  width: 70%;
+  text-align: center;
+}
+
+.submit-button {
+  width: 87%;
+  margin: 20px 0;
 }
