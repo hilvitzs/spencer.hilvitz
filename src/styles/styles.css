@@ -156,7 +156,7 @@ img {
   display: flex;
   flex-direction: column;
   border-right: 1px solid #FDFDFD;
-  width: 8%;
+  width: 7%;
 }
 
 .icon {
@@ -310,4 +310,20 @@ label {
 .skills-list-item {
   width: 26%;
   padding-top: 5px;
+}
+
+.portfolio-div {
+  height: 413px;
+  width: 100%;
+}
+
+.movie-div {
+  transform: skewX(-20deg);
+  border: 1px solid #74CEDD;
+  position: absolute;
+}
+
+.portfolio-text {
+  transform: skewX(20deg);
+  padding-left: 50px;
 }
