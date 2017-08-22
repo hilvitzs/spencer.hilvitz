@@ -19,20 +19,17 @@ export const Resume = () => {
         </div>
         <div className='skills-div resume-content'>
           <div className='resume-text'>
-            <h1>SKILLS</h1>
+            <h1 className='skills-title'>SKILLS</h1>
             <ul className='skills-list small-content'>
-              <li className='skills-list-item'>JAVASCRIPT</li>
+              <li className='skills-list-item'>HTML 5 & CSS 3</li>
               <li className='skills-list-item'>ES6</li>
-              <li className='skills-list-item'>HTML 5</li>
-              <li className='skills-list-item'>CSS 3</li>
-              <li className='skills-list-item'>JQUERY</li>
-              <li className='skills-list-item'>JEST TESTING</li>
-              <li className='skills-list-item'>CHAI TESTING</li>
-              <li className='skills-list-item'>REACT</li>
-              <li className='skills-list-item'>REDUX</li>
+              <li className='skills-list-item'>jQUERY</li>
+              <li className='skills-list-item'>NODE.JS</li>
+              <li className='skills-list-item'>REACT & REDUX</li>
               <li className='skills-list-item'>REACT ROUTER</li>
-              <li className='skills-list-item'>HTML CANVAS</li>
-              <li className='skills-list-item'>D3</li>
+              <li className='skills-list-item'>PostgreSQL</li>
+              <li className='skills-list-item'>EXPRESS</li>
+              <li className='skills-list-item'>TESTING (MOCHA, CHAI, ENZYME, JEST)</li>
             </ul>
           </div>
         </div>
@@ -40,8 +37,7 @@ export const Resume = () => {
           <div className='resume-text'>
             <h1>EDUCATION</h1>
             <p className='small-content'>
-              Turing School of Software and Design
-              Front-End Web Development Program
+              Turing School of Software and Design - Front-End Web Development Program
             </p>
           </div>
         </div>
