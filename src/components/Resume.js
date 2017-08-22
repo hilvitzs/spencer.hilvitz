@@ -45,14 +45,6 @@ export const Resume = () => {
             </p>
           </div>
         </div>
-        {/* <div className='experience-content resume-content'>
-          <h1>EXPERIENCE</h1>
-          <p>
-            - Turing School of Software and Design
-            Front-End Web Development Program
-            - NatureMed Integrative Medicine Office Manager
-          </p>
-        </div> */}
       </div>
     </div>
   );
