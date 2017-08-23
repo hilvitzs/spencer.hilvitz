@@ -118,7 +118,8 @@ span {
   color: #FDFDFD;
   font-size: 20px;
   transform: skewX(-20deg);
-  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 .about-div {
@@ -323,13 +324,18 @@ label {
 .snake-div {
   border: 1px solid #74CEDD;
   position: absolute;
-  width: 90%;
+  width: 75%;
   height: 350px;
 }
 
 .mentr-div {
   top: 0;
   left: 0;
+}
+
+.portfolio-img {
+  height: 350px;
+  width: 650px;
 }
 
 .movie-div {
