@@ -3,6 +3,7 @@ body {
   width: 100%;
   font-family: 'Raleway', sans-serif;
   background: url(./7135.jpg) no-repeat;
+  background-size: cover;
   overflow: hidden;
 }
 
