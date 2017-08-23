@@ -2,9 +2,7 @@ body {
   height: 100%;
   width: 100%;
   font-family: 'Raleway', sans-serif;
-  background-image: url(./7135.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: url(./7135.jpg) no-repeat;
   overflow: hidden;
 }
 
@@ -118,9 +116,8 @@ span {
   border: 1px solid #74CEDD;
   color: #FDFDFD;
   font-size: 20px;
-  overflow: hidden;
   transform: skewX(-20deg);
-  overflow: hidden;
+  overflow: scroll;
 }
 
 .about-div {
@@ -129,7 +126,10 @@ span {
   position: relative;
 }
 
-.contact-div, .resume-img, .about-div, .main-section, .portfolio-div {
+.contact-div,
+.resume-img,
+.about-div,
+.main-section {
   transform: skewX(20deg);
 }
 
@@ -317,10 +317,33 @@ label {
   width: 100%;
 }
 
-.movie-div {
-  transform: skewX(-20deg);
+.movie-div,
+.mentr-div,
+.snake-div {
   border: 1px solid #74CEDD;
   position: absolute;
+  width: 90%;
+  height: 350px;
+}
+
+.mentr-div {
+  top: 0;
+  left: 0;
+}
+
+.movie-div {
+  top: 351px;
+  right: 0;
+}
+
+.movietracker-img {
+  position: relative;
+  left: 20px;
+}
+
+.snake-div {
+  top: 700px;
+  left: 0;
 }
 
 .portfolio-text {
