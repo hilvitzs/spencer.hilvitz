@@ -25,6 +25,7 @@ export const Contact = () => {
             </label>
           </div>
           <input className='submit-button' type='submit' value='Submit' />
+          <p className='email'>You can also email me at <a id='email-address' href='mailto:spencerhilvitz@gmail.com'>spencer.hilvitz@gmail.com</a></p>
         </form>
       </div>
     </div>

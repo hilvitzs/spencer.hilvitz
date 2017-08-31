@@ -159,6 +159,8 @@ img {
   flex-direction: column;
   border-right: 1px solid #FDFDFD;
   width: 7%;
+  position: relative;
+  bottom: 10px;
 }
 
 .icon {
@@ -321,11 +323,13 @@ label {
 
 .movie-div,
 .mentr-div,
-.snake-div {
+.byob-div {
   border: 1px solid #74CEDD;
   position: absolute;
-  width: 75%;
+  width: 81%;
   height: 350px;
+  overflow: hidden;
+  text-align: center;
 }
 
 .mentr-div {
@@ -345,15 +349,50 @@ label {
 
 .movietracker-img {
   position: relative;
-  left: 20px;
 }
 
-.snake-div {
+.byob-div {
   top: 700px;
   left: 0;
 }
 
 .portfolio-text {
   transform: skewX(20deg);
-  padding-left: 50px;
+  position: relative;
+}
+
+.after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  color: #FFF;
+}
+
+.portfolio-text:hover .after,
+.mentr-div,
+.movie-div,
+.byob-div {
+  display: block;
+  background-color: #FDFDFD;
+  opacity: 0.95;
+  color: #1C1616;
+}
+
+.hover-text {
+  position: relative;
+}
+
+.email {
+  position: relative;
+  margin: auto;
+  font-weight: 300;
+  font-size: 15px;
+  padding-top: 25px;
+}
+
+#email-address {
+  color: #74CEDD;
 }
