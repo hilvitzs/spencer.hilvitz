@@ -321,15 +321,13 @@ label {
   width: 100%;
 }
 
-.movie-div,
-.mentr-div,
-.byob-div {
+.container-div {
   border: 1px solid #74CEDD;
   position: absolute;
-  width: 81%;
   height: 350px;
   overflow: hidden;
   text-align: center;
+  transform: skewX(20deg);
 }
 
 .mentr-div {
@@ -356,11 +354,6 @@ label {
   left: 0;
 }
 
-.portfolio-text {
-  transform: skewX(20deg);
-  position: relative;
-}
-
 .after {
   position: absolute;
   top: 0;
@@ -371,14 +364,27 @@ label {
   color: #FFF;
 }
 
-.portfolio-text:hover .after,
-.mentr-div,
-.movie-div,
-.byob-div {
+.container-div:hover .after {
   display: block;
-  background-color: #FDFDFD;
   opacity: 0.95;
   color: #1C1616;
+  background-color: #FDFDFD;
+}
+
+.portfolio-icon {
+  height: 50px;
+  width: 50px;
+}
+
+.portfolio-icon:hover {
+  fill: #74CEDD;
+}
+
+.portfolio-icon-div {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+  margin: auto;
 }
 
 .hover-text {
