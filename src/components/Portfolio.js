@@ -5,7 +5,7 @@ export const Portfolio = () => {
     <div className='main-content-div'>
       <div className='portfolio-div'>
         <div className='mentr-div container-div'>
-          <img alt='' className='mentr-img portfolio-img' src={require('../mentr.png')} />
+          <img alt='' className='mentr-img portfolio-img' src={require('../styles/assets/mentr.png')} />
           <section className='after'>
             <p className='hover-text'>Mentr</p>
             <p className='hover-text'>React, React-Router</p>
@@ -16,7 +16,7 @@ export const Portfolio = () => {
           </section>
         </div>
         <div className='movie-div container-div'>
-          <img alt='' className='movietracker-img portfolio-img' src={require('../movietracker.png')} />
+          <img alt='' className='movietracker-img portfolio-img' src={require('../styles/assets/movietracker.png')} />
           <section className='after'>
             <p className='hover-text'>MovieTracker</p>
             <p className='hover-text'>React, React-Router, Redux</p>
@@ -27,7 +27,7 @@ export const Portfolio = () => {
           </section>
         </div>
         <div className='byob-div container-div'>
-          <img alt='' className='byob-img portfolio-img' src={require('../byob.png')} />
+          <img alt='' className='byob-img portfolio-img' src={require('../styles/assets/byob.png')} />
           <section className='after'>
             <p className='hover-text'>Build Your Own Backend</p>
             <p className='hover-text'>Express, PSQL, Wine.com API</p>
