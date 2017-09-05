@@ -327,7 +327,6 @@ label {
   height: 350px;
   overflow: hidden;
   text-align: center;
-  transform: skewX(20deg);
 }
 
 .mentr-div {
@@ -338,11 +337,12 @@ label {
 .portfolio-img {
   height: 350px;
   width: 650px;
+  transform: skewX(20deg);
 }
 
 .movie-div {
   top: 351px;
-  right: 0;
+  right: 60px;
 }
 
 .movietracker-img {
@@ -357,11 +357,12 @@ label {
 .after {
   position: absolute;
   top: 0;
-  left: 0;
-  width: 100%;
+  left: -65px;
+  width: 120%;
   height: 100%;
   display: none;
   color: #FFF;
+  transform: skewX(20deg);
 }
 
 .container-div:hover .after {
