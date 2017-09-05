@@ -8,3 +8,5 @@ The site is live at [www.spencerhilvitz.com](www.spencerhilvitz.com)
 
 ## Project Screen Shots
 ![Site](./home-img.png)
+![Site](./contact.png)
+![Site](./resume.png)
