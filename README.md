@@ -8,4 +8,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 The site is live at [www.spencerhilvitz.com](www.spencerhilvitz.com)
 
 ##Project Screen Shots
-[Site](./home-img.png)
+![Site](./home-img.png)
