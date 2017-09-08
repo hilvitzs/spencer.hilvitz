@@ -7,6 +7,7 @@ import createHistory from 'history/createBrowserHistory';
 
 let history = createHistory();
 
+require('./styles/normalize.css');
 require('./styles/about.css');
 require('./styles/app.css');
 require('./styles/contact.css');

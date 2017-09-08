@@ -7,6 +7,14 @@ body {
   overflow: hidden;
 }
 
+.logo-navbar {
+  position: relative;
+  top: 5px;
+  left: 75px;
+  height: 80px;
+  width: 100px;
+}
+
 .heading-section {
   border-right: 1px solid #74CEDD;
   background-color: #1C1616;

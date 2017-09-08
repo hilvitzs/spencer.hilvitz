@@ -12,7 +12,7 @@ export const App = () => {
     <section className='app-wrapper'>
       <section className='heading-section'>
         <div className='heading-wrapper'>
-          <NavLink to='/'><img className='logo-white' alt='logo' src={require('../logo-white.png')} /></NavLink>
+          <NavLink to='/'><img className='logo-navbar' alt='logo' src={require('../logo-white.png')} /></NavLink>
           <Navbar />
         </div>
       </section>
