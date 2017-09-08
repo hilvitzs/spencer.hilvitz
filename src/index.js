@@ -7,7 +7,13 @@ import createHistory from 'history/createBrowserHistory';
 
 let history = createHistory();
 
-require('./styles/styles.css');
+require('./styles/about.css');
+require('./styles/app.css');
+require('./styles/contact.css');
+require('./styles/main.css');
+require('./styles/navbar.css');
+require('./styles/portfolio.css');
+require('./styles/resume.css');
 
 render(<BrowserRouter history={history} >
   <div>

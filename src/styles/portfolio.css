@@ -1,0 +1,75 @@
+.portfolio-div {
+  height: 413px;
+  width: 100%;
+}
+
+.container-div {
+  border: 1px solid #74CEDD;
+  position: absolute;
+  height: 350px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.mentr-div {
+  top: 0;
+  left: 0;
+}
+
+.portfolio-img {
+  height: 350px;
+  width: 650px;
+  transform: skewX(20deg);
+}
+
+.movie-div {
+  top: 351px;
+  right: 60px;
+}
+
+.movietracker-img {
+  position: relative;
+}
+
+.byob-div {
+  top: 700px;
+  left: 0;
+}
+
+.after {
+  position: absolute;
+  top: 0;
+  left: -65px;
+  width: 120%;
+  height: 100%;
+  display: none;
+  color: #FFF;
+  transform: skewX(20deg);
+}
+
+.container-div:hover .after {
+  display: block;
+  opacity: 0.95;
+  color: #1C1616;
+  background-color: #FDFDFD;
+}
+
+.portfolio-icon {
+  height: 50px;
+  width: 50px;
+}
+
+.portfolio-icon:hover {
+  fill: #74CEDD;
+}
+
+.portfolio-icon-div {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+  margin: auto;
+}
+
+.hover-text {
+  position: relative;
+}

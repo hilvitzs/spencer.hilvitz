@@ -1,0 +1,45 @@
+body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Raleway', sans-serif;
+  background: url(./assets/7135.jpg) no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.heading-section {
+  border-right: 1px solid #74CEDD;
+  background-color: #1C1616;
+  border-top: none;
+  width: 15em;
+  transform: rotate(20deg);
+  position: absolute;
+  top: -150px;
+  left: -114px;
+  height: 90%;
+  width: 220px;
+  z-index: 1;
+}
+
+.heading-wrapper {
+  transform: rotate(-20deg);
+  position: absolute;
+  top: 140px;
+  left: 70px;
+}
+
+.main-content-div {
+  position: absolute;
+  top: 115px;
+  right: -160px;
+  padding: 50px;
+  width: 80%;
+  max-height: 413px;
+  background-color: #1C1616;
+  border: 1px solid #74CEDD;
+  color: #FDFDFD;
+  font-size: 20px;
+  transform: skewX(-20deg);
+  overflow-y: scroll;
+  overflow-x: hidden;
+}

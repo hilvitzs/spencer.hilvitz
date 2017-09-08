@@ -1,0 +1,64 @@
+.resume-container {
+  height: 413px;
+  width: 100%;
+}
+
+.profile-div {
+  color: #FDFDFD;
+  background-color: #1C1616;
+  top: 0;
+  left: 0;
+}
+
+.resume-text {
+  transform: skewX(20deg);
+  padding-left: 25px;
+}
+
+.profile-content {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.resume-content {
+  position: absolute;
+  width: 50%;
+  border: 1px solid #74CEDD;
+  padding: 10px;
+  height: 150px;
+}
+
+.skills-div {
+  border: 1px solid #74CEDD;
+  width: 50%;
+  top: 171px;
+  right: 83px;
+  padding-left: 30px;
+}
+
+.education-div {
+  top: 342px;
+  left: 0;
+}
+
+.small-content {
+  font-weight: 300;
+  font-size: 12px;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  list-style: none;
+  margin-top: 0;
+}
+
+.skills-title {
+  margin-bottom: 5px;
+}
+
+.skills-list-item {
+  width: 26%;
+  padding-top: 5px;
+}

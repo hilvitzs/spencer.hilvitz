@@ -1,0 +1,77 @@
+.navbar {
+  display: flex;
+  flex-direction: column;
+}
+
+.navlink {
+  text-decoration: none;
+  color: #1C1616;
+  list-style: none;
+  margin-top: 20px;
+  font-weight: 300;
+  background-color: #FDFDFD;
+  color: black;
+  border: 1px solid #1C1616;
+  transform: skewX(-20deg);
+  position: relative;
+  left: -11px;
+}
+
+.navlink:hover {
+  background-color: #74CEDD;
+  transition: background-color 0.5s;
+  color: #FDFDFD;
+}
+
+.navlink.active {
+  background-color: #74CEDD;
+  transition: width 0.5s;
+}
+
+.portfolio {
+  width: 172px;
+  transition: width 0.5s;
+}
+
+.contact {
+  width: 153px;
+  transition: width 0.5s;
+}
+
+.resume {
+  width: 135px;
+  transition: width 0.5s;
+}
+
+.about {
+  width: 116px;
+  transition: width 0.5s;
+}
+
+.portfolio:hover, .portfolio.active {
+  width: 200px;
+  transition: width 0.5s;
+}
+
+.contact:hover, .contact.active {
+  width: 182px;
+  transition: width 0.5s;
+}
+
+.resume:hover, .resume.active {
+  width: 164px;
+  transition: width 0.5s;
+}
+
+.about:hover, .about.active {
+  width: 147px;
+  transition: width 0.5s;
+}
+
+span {
+  position: relative;
+  display: block;
+  transform: skewX(20deg);
+  padding: 5px;
+  left: 49px;
+}

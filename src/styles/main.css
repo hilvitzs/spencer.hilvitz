@@ -1,0 +1,34 @@
+.main-section {
+  display: flex;
+  transform: skewX(20deg);
+  align-items: center;
+}
+
+.logo-white {
+  position: relative;
+  top: 5px;
+  left: 75px;
+  height: 80px;
+  width: 100px;
+}
+
+.main-div {
+  display: flex;
+  border-left: 1px solid #FDFDFD;
+}
+
+.main-name {
+  padding: 10px;
+  padding-left: 43px;
+  padding-right: 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 40px;
+}
+
+.main-title {
+  font-family: 'Lato', sans-serif;
+  position: relative;
+  top: 75px;
+  font-weight: 300;
+  font-size: 30px;
+}
