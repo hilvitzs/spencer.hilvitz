@@ -5,7 +5,7 @@ export const Main = () => {
     <div className='main-content-div'>
       <section className='main-section'>
         <div>
-          <img className='logo-black' alt='logo' src={require('../logo-white.png')} />
+          <img className='logo-main' alt='logo' src={require('../logo-white.png')} />
         </div>
         <div className='main-div'>
           <h1 className='main-name'>spencer hilvitz</h1>
