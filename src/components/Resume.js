@@ -6,10 +6,10 @@ export const Resume = () => {
       <div className='resume-container'>
         <div className='profile-div resume-content'>
           <div className='resume-text'>
-            <h1 className='profile-title'>PROFILE</h1>
+            <h1 className='profile-title title'>PROFILE</h1>
             <p className='profile-content small-content'>
               Studying Creative Writing taught me to see the
-              world through a creative lens. Studying Psychology
+              world through an artistic lens. Studying Psychology
               allowed me to see the world through a logical one.
               Coding has allowed me to combine these
               viewpoints and apply them towards technological
@@ -19,7 +19,7 @@ export const Resume = () => {
         </div>
         <div className='skills-div resume-content'>
           <div className='resume-text'>
-            <h1 className='skills-title'>SKILLS</h1>
+            <h1 className='skills-title title'>SKILLS</h1>
             <ul className='skills-list small-content'>
               <li className='skills-list-item'>HTML 5 & CSS 3</li>
               <li className='skills-list-item'>ES6</li>
@@ -35,9 +35,12 @@ export const Resume = () => {
         </div>
         <div className='education-div resume-content'>
           <div className='resume-text'>
-            <h1>EDUCATION</h1>
+            <h1 className='title'>EDUCATION</h1>
             <p className='small-content'>
-              Turing School of Software and Design - Front-End Web Development Program
+              Turing School of Software and Design - Front End Web Development Program
+            </p>
+            <p className='small-content'>
+              University of Colorado at Boulder - Creative Writing & Psychology
             </p>
           </div>
         </div>

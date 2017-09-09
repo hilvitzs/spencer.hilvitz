@@ -9,7 +9,7 @@ export const Main = () => {
         </div>
         <div className='main-div'>
           <h1 className='main-name'>spencer hilvitz</h1>
-          <h2 className='main-title'>front.end web.developer</h2>
+          <h2 className='main-title'>front end web developer</h2>
         </div>
       </section>
     </div>
