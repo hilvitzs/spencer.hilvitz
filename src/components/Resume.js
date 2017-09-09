@@ -6,7 +6,7 @@ export const Resume = () => {
       <div className='resume-container'>
         <div className='profile-div resume-content'>
           <div className='resume-text'>
-            <h1>PROFILE</h1>
+            <h1 className='profile-title'>PROFILE</h1>
             <p className='profile-content small-content'>
               Studying Creative Writing taught me to see the
               world through a creative lens. Studying Psychology
