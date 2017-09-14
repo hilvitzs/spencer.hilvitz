@@ -75,3 +75,26 @@ span {
   padding: 5px;
   left: 49px;
 }
+
+@media screen and (max-width: 320px) {
+  .navlink {
+    position: static;
+    background-color: #1C1616;
+    color: #FDFDFD;
+    border-top: 1px solid #74CEDD;
+    border-bottom: 1px solid #74CEDD;
+    width: 95%;
+    transform: skewX(0deg);
+    margin-top: 0;
+  }
+
+  .navlink.active, .navlink:hover {
+    width: 95%;
+  }
+
+  span {
+    text-align: center;
+    left: 0;
+    transform: skewX(0);
+  }
+}

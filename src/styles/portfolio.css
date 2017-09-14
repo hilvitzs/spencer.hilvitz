@@ -29,10 +29,6 @@
   right: 60px;
 }
 
-.movietracker-img {
-  position: relative;
-}
-
 .byob-div {
   top: 700px;
   left: 0;
@@ -74,4 +70,22 @@
 
 .hover-text {
   position: relative;
+}
+
+@media screen and (max-width: 320px) {
+  .portfolio-div {
+    width: 100%;
+  }
+
+  .portfolio-img {
+    transform: skewX(0);
+    height: 100%;
+    width: 100%;
+    left: 0;
+  }
+
+  .container-div {
+    position: static;
+    width: 100%;
+  }
 }
