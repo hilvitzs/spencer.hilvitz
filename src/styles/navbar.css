@@ -83,13 +83,13 @@ span {
     color: #FDFDFD;
     border-top: 1px solid #74CEDD;
     border-bottom: 1px solid #74CEDD;
-    width: 95%;
+    width: 100%;
     transform: skewX(0deg);
     margin-top: 0;
   }
 
   .navlink.active, .navlink:hover {
-    width: 95%;
+    width: 100%;
   }
 
   span {

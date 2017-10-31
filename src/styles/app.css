@@ -70,14 +70,11 @@ body {
     margin: 0;
   }
 
-  .main-content-section {
-    margin: 0;
-  }
-
   .main-content-div {
     transform: skewX(0);
     position: static;
     width: 60%;
+    margin-top: 30px;
   }
 
   .heading-section {
@@ -92,7 +89,14 @@ body {
 
   .heading-wrapper {
     transform: rotate(0deg);
-    width: 100%;
     position: static;
+  }
+
+  .logo-navbar {
+    left: 5px;
+    top: 0;
+    display: block;
+    margin: auto;
+    padding: 10px;
   }
 }

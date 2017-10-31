@@ -64,3 +64,10 @@
     padding-left: 0;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .main-section {
+    flex-direction: column;
+    transform: skewX(0);
+  }
+}
