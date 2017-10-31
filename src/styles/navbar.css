@@ -76,7 +76,7 @@ span {
   left: 49px;
 }
 
-@media screen and (414px) {
+@media screen and (max-width: 414px) {
   .navlink {
     position: static;
     background-color: #1C1616;
