@@ -72,7 +72,7 @@
   position: relative;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (414px) {
   .portfolio-div {
     width: 100%;
   }

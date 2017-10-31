@@ -65,7 +65,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (414px) {
   .main-section {
     flex-direction: column;
     transform: skewX(0);

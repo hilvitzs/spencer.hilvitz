@@ -65,7 +65,7 @@ body {
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (414px) {
   .app-wrapper {
     width: 100%;
     margin: 0;
