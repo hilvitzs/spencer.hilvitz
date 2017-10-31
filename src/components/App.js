@@ -16,15 +16,15 @@ export const App = () => {
           <Navbar />
         </div>
       </section>
-      <section className='main-content-section'>
-        <Switch>
-          <Route exact path='/' render={() => <Main />} />
-          <Route path='/portfolio' render={() => <Portfolio />} />
-          <Route path='/contact' render={() => <Contact />} />
-          <Route path='/about' render={() => <About />} />
-          <Route path='/resume' render={() => <Resume />} />
-        </Switch>
-      </section>
+      {/* <section className='main-content-section'> */}
+      <Switch>
+        <Route exact path='/' render={() => <Main />} />
+        <Route path='/portfolio' render={() => <Portfolio />} />
+        <Route path='/contact' render={() => <Contact />} />
+        <Route path='/about' render={() => <About />} />
+        <Route path='/resume' render={() => <Resume />} />
+      </Switch>
+      {/* </section> */}
     </section>
   );
 };

@@ -70,4 +70,21 @@
     flex-direction: column;
     transform: skewX(0);
   }
+
+  .main-div {
+    border-left: 0;
+    border-top: 1px solid #FDFDFD;
+    width: 100%;
+    text-align: center;
+  }
+
+  .logo-main {
+    margin: 0;
+    margin-bottom: 20px;
+    left: 20px;
+  }
+
+  .main-name, .main-title {
+    position: static;
+  }
 }

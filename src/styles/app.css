@@ -5,6 +5,7 @@ body {
   background: url(./assets/7135.jpg) no-repeat;
   background-size: cover;
   overflow: hidden;
+  margin: 0;
 }
 
 .logo-navbar {
@@ -74,7 +75,9 @@ body {
     transform: skewX(0);
     position: static;
     width: 60%;
-    margin-top: 30px;
+    margin: auto;
+    margin-top: 35px;
+    height: 325px;
   }
 
   .heading-section {
@@ -83,8 +86,8 @@ body {
     height: 200px;
     width: 100%;
     border-bottom: 1px solid #74CEDD;
-    top: -7px;
-    left: -6px;
+    top: 0;
+    left: 0;
   }
 
   .heading-wrapper {

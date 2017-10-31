@@ -82,10 +82,13 @@ span {
     background-color: #1C1616;
     color: #FDFDFD;
     border-top: 1px solid #74CEDD;
-    border-bottom: 1px solid #74CEDD;
     width: 100%;
     transform: skewX(0deg);
     margin-top: 0;
+  }
+
+  .about {
+    border-bottom: 1px solid #74CEDD;
   }
 
   .navlink.active, .navlink:hover {
