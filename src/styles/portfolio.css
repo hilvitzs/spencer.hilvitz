@@ -75,8 +75,8 @@
 @media screen and (max-width: 414px) {
 
   .portfolio-img {
+    height: auto;
     transform: skewX(0);
-    height: 100%;
     width: 100%;
     left: 0;
   }
@@ -92,5 +92,14 @@
 
   .mobile-view {
     height: 50px;
+  }
+
+  .portfolio-div {
+    height: auto;
+  }
+
+  .portfolio-icon {
+    fill: #FDFDFD;
+    padding: 20px;
   }
 }
