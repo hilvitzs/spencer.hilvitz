@@ -84,14 +84,11 @@
   .container-div {
     position: static;
     padding: 10px;
+    height: auto;
   }
 
   .container-div:hover .after {
     display: none;
-  }
-
-  .mobile-view {
-    height: 50px;
   }
 
   .portfolio-div {
@@ -101,5 +98,9 @@
   .portfolio-icon {
     fill: #FDFDFD;
     padding: 20px;
+  }
+
+  .portfolio-icon-div {
+    width: 70%;
   }
 }
