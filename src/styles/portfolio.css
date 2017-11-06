@@ -35,12 +35,12 @@
 }
 
 .after {
+  display: none;
   position: absolute;
   top: 0;
   left: -65px;
   width: 120%;
   height: 100%;
-  display: none;
   color: #FFF;
   transform: skewX(20deg);
 }
@@ -73,9 +73,6 @@
 }
 
 @media screen and (max-width: 414px) {
-  .portfolio-div {
-    width: 100%;
-  }
 
   .portfolio-img {
     transform: skewX(0);
@@ -86,6 +83,14 @@
 
   .container-div {
     position: static;
-    width: 100%;
+    padding: 10px;
+  }
+
+  .container-div:hover .after {
+    display: none;
+  }
+
+  .mobile-view {
+    height: 50px;
   }
 }

@@ -69,6 +69,7 @@
   .main-section {
     flex-direction: column;
     transform: skewX(0);
+    padding: 50px;
   }
 
   .main-div {
@@ -86,5 +87,6 @@
 
   .main-name, .main-title {
     position: static;
+    padding-top: 20px;
   }
 }
