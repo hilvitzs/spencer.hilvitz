@@ -18,12 +18,10 @@ export const Contact = () => {
             Email
             <input className='email-input input' type='email' name='_replyto' placeholder='email' />
           </label>
-          <div className='textarea-container'>
-            <label id='message-label'>
-              Message
-              <textarea className='contact-content input' type='message' name='message' placeholder='message' />
-            </label>
-          </div>
+          <label id='message-label'>
+            Message
+            <textarea className='contact-content input' type='message' name='message' placeholder='message' />
+          </label>
           <input className='submit-button' type='submit' value='Submit' />
           <p className='email'>You can also email me at <a id='email-address' href='mailto:spencerhilvitz@gmail.com'>spencer.hilvitz@gmail.com</a></p>
         </form>

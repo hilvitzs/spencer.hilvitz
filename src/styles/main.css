@@ -69,7 +69,8 @@
   .main-section {
     flex-direction: column;
     transform: skewX(0);
-    padding: 50px;
+    padding: 40px;
+    height: 312px;
   }
 
   .main-div {
@@ -82,7 +83,7 @@
   .logo-main {
     margin: 0;
     margin-bottom: 20px;
-    left: 20px;
+    left: 10px;
   }
 
   .main-name, .main-title {

@@ -78,6 +78,7 @@ body {
     margin: auto;
     margin-top: 35px;
     padding: 0;
+    max-height: none;
   }
 
   .heading-section {
