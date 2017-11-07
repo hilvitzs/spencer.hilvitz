@@ -4,3 +4,11 @@
   position: relative;
   transform: skewX(20deg);
 }
+
+@media screen and (max-width: 414px) {
+  .about-div {
+    position: static;
+    transform: skewX(0);
+    margin: auto;
+  }
+}
